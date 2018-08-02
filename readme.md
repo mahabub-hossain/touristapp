@@ -17,7 +17,7 @@ Major features are given below--
 
 1.Full function able admin pannel.
 2.Multiple image implementation with ajax update and delete request.
-3.Google map api implementation which show map according to Latitude and Langitude of a city.User can serch the direction path to go one place to another.
+3.Google map api implementation which shows map according to Latitude and Langitude of a city.User can serch the direction path to go one place to another.
 4.Weather map api implementation . It shows selected city's current weather status.
 5.Package search according to price by using Range slider and also according to country.
 
