@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- SITE TITTLE -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Travel - Tour Booking Theme</title>
+
+  <!-- PLUGINS CSS STYLE -->
+  <link href="plugins/jquery-ui/jquery-ui.css" rel="stylesheet">
+  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="plugins/selectbox/select_option1.css">
+  <link rel="stylesheet" type="text/css" href="plugins/datepicker/datepicker.css">
+  <link rel="stylesheet" type="text/css" href="plugins/isotope/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="plugins/isotope/isotope.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- REVOLUTION SLIDER -->
+  <link rel="stylesheet" href="plugins/revolution/css/settings.css">
+  <link rel="stylesheet" href="plugins/revolution/css/layers.css">
+  <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+
+
+  <!-- GOOGLE FONT -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700' rel='stylesheet' type='text/css'>
+
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/colors/default.css" id="option_color">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body class="body-wrapper ">
+  <div class="main-wrapper">
+
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-default navbar-main   lightHeader " role="navigation">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown singleDrop active">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                <ul class="dropdown-menu dropdown-menu-left">
+                  <li class="dropdown singleDrop  "><a href="index.html">Home Main</a></li>
+                  <li class="dropdown singleDrop  "><a href="index-v2.html">Home City</a></li>
+                  <li class="dropdown singleDrop active "><a href="index-v3.html">Home Destination</a></li>
+                </ul>
+              </li>
+              <li class="dropdown megaDropMenu ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true" aria-expanded="false">Tours</a>
+                <ul class="row dropdown-menu">
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Tour Packages Grid View</li>
+                      <li class=""><a href="packages-grid-left-sidebar.html">Packages Sidebar Left</a></li>
+                      <li class=""><a href="packages-grid-right-sidebar.html">Packages Sidebar Right</a></li>
+                      <li class=""><a href="packages-grid.html">Packages 3 Columns</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Tour Packages List View</li>
+                      <li class=""><a href="packages-list-left-sidebar.html">Packages Sidebar Left</a></li>
+                      <li class=""><a href="packages-list-right-sidebar.html">Packages Sidebar Right</a></li>
+                      <li class=""><a href="packages-list.html">Packages List</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Single Package</li>
+                      <li class=""><a href="single-package-left-sidebar.html">Packages Sidebar Left</a></li>
+                      <li class=""><a href="single-package-right-sidebar.html">Packages Sidebar Right</a></li>
+                      <li class=""><a href="single-package-fullwidth.html">Package Fullwidth</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Booking Steps</li>
+                      <li class=""><a href="booking-1.html">Step 1 - Personal Info</a></li>
+                      <li class=""><a href="booking-2.html">Step 2 - Payment Info</a></li>
+                      <li class=""><a href="booking-3.html">Step 3 - Confirmation</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown megaDropMenu ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true" aria-expanded="false">Hotels</a>
+                <ul class="row dropdown-menu">
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Hotels Grid View</li>
+                      <li class=""><a href="hotels-grid-left-sidebar.html">Hotels Sidebar Left</a></li>
+                      <li class=""><a href="hotels-grid-right-sidebar.html">Hotels Sidebar Right</a></li>
+                      <li class=""><a href="hotels-grid.html">Hotels 3 Columns</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Hotels List View</li>
+                      <li class=""><a href="hotels-list-left-sidebar.html">Hotels Sidebar Left</a></li>
+                      <li class=""><a href="hotels-list-right-sidebar.html">Hotels Sidebar Right</a></li>
+                      <li class=""><a href="hotels-list.html">Hotels List</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Single Hotel</li>
+                      <li class=""><a href="single-hotel-left-sidebar.html">Hotels Sidebar Left</a></li>
+                      <li class=""><a href="single-hotel-right-sidebar.html">Hotels Sidebar Right</a></li>
+                      <li class=""><a href="single-hotel-fullwidth.html">Hotels Fullwidth</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3 col-xs-12">
+                    <ul class="list-unstyled">
+                      <li>Booking Steps</li>
+                      <li class=""><a href="booking-1.html">Step 1 - Personal Info</a></li>
+                      <li class=""><a href="booking-2.html">Step 2 - Payment Info</a></li>
+                      <li class=""><a href="booking-3.html">Step 3 - Confirmation</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown singleDrop ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PAGES</a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li class=""><a href="about-us.html">About Us</a></li>
+                  <li class=""><a href="contact.html">Contact Us</a></li>
+                  <li class="dropdown dropdown-submenu ">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Gallery <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu ">
+                      <li class=""><a href="gallery-grid.html">Gallery Grid</a></li>
+                      <li class=""><a href="gallery-masonry.html">Gallery Masonry</a></li>
+                      <li class=""><a href="gallery-photo-slider.html">Photo Slider</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-submenu ">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Destinations <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-left">
+                      <li class=""><a href="destination-cities.html">Destination Cities</a></li>
+                      <li class=""><a href="destination-single-city.html">Single Destination</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="404.html">404 Not Found</a></li>
+                  <li><a href="coming-soon.html">Coming Soon</a></li>
+                </ul>
+              </li>
+              <li class="dropdown singleDrop ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Grid View <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class=""><a href="blog-grid-three-col.html">Blog Grid 3 Col</a></li>
+                      <li class=""><a href="blog-grid-two-col.html">Blog Grid 2 Col</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog List View <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class=""><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
+                      <li class=""><a href="blog-list-left-sidebar.html">blog-list-left-sidebar.html</a></li>
+                      <li class=""><a href="blog-list-fullwidth.html">Blog List Fullwidth</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Single Blog Post <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class=""><a href="blog-single-right-sidebar.html">Right Sidebar</a></li>
+                      <li class=""><a href="blog-single-left-sidebar.html">Left Sidebar</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown singleDrop ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin</a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li class=""><a href="dashboard.html">Dashboard</a></li>
+                  <li class=""><a href="booking.html">Booking</a></li>
+                  <li class=""><a href="profile.html">Profile</a></li>
+                  <li class=""><a href="setting.html">Settings</a></li>
+                  <li class=""><a href="" data-toggle="modal" data-target="#signup">Signup</a></li>
+                  <li class=""><a href="" data-toggle="modal" data-target="#login">Login</a></li>
+                </ul>
+              </li>
+              <li class="dropdown singleDrop ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shortcodes</a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li class=""><a href="accordion-and-toggles.html">Accordions &amp; Toggles</a></li>
+                  <li class=""><a href="tabs-and-dropdown.html">Tabs &amp; Dropdowns</a></li>
+                  <li class=""><a href="pricing-table.html">Pricing Tables</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="navbar-btn">
+                  <a class="btn btn-nav">Book Now</a>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+
+  <section class="bannercontainer">
+
+  <div id="rev_slider_wrapper3" class="rev_slider_wrapper fullscreen-container" data-alias="christmas-snow-scene" data-source="gallery" style="background-color:transparent;padding:0px;">
+    <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
+    <div id="rev_video_slider" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
+      <ul>
+        <!-- LAYERS -->
+
+    		<!-- BACKGROUND VIDEO LAYER -->
+        <li data-index="rs-2896" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="3000"  data-thumb="../../assets/images/vimeobg-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+      		<!-- MAIN IMAGE -->
+      		<img src="img/home/slider/slider-07.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+      		<!-- LAYERS -->
+
+      		<!-- BACKGROUND VIDEO LAYER -->
+      		<div class="rs-background-video-layer"
+      			data-forcerewind="on"
+      			data-volume="mute"
+      			data-vimeoid="23237102"
+      			data-videoattributes="background=1&title=0&amp;byline=0&amp;portrait=0&amp;api=1"
+      			data-videowidth="870px"
+      			data-videoheight="100%"
+      			data-videocontrols="none"
+      			data-videostartat="00:00"
+      			data-videoendat="00:48"
+      			data-videoloop="loop"
+      			data-forceCover="1"
+      			data-aspectratio="4:3"
+      			data-autoplay="true"
+      			data-autoplayonlyfirsttime="false"
+      ></div>
+      	</li>
+
+
+  </ul>
+
+
+  </div><!-- END REVOLUTION SLIDER -->
+</div>
+</section>
+
+
+<section class="searchDestinationSection">
+  <div class="container">
+    <div class="headingTitle">
+      <h2>Search <span>Your Destination</span></h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="searchDestination">
+          <ul class="nav nav-tabs ">
+            <li class="active">
+              <a data-toggle="tab" href="#tour"><i class="fa fa-map-marker" aria-hidden="true"></i> <span>tours</span></a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#hotel"><i class="fa fa-home" aria-hidden="true"></i> <span>hotel</span></a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#flights"><i class="fa fa-plane" aria-hidden="true"></i> <span>flights</span></a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#vehicles"><i class="fa fa-car" aria-hidden="true"></i> <span>vehicles</span></a>
+            </li>
+
+          </ul>
+          <div class="tab-content">
+            <div id="tour" class="tab-pane fade in active">
+              <form method="" action="" >
+                  <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="form-group">
+                        <label for="typeKeyword">Search</label>
+                        <input type="text" class="form-control" id="typeKeyword" placeholder="Type keyword">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label for="typeKeyword">Destination</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">Your Destination</option>
+                          <option value="1">USA</option>
+                          <option value="2">UK</option>
+                          <option value="3">INDIA</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                      <label class="marginTop" for="typeKeyword">Check in date</label>
+                      <div class="date-picker-custom">
+                        <div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
+                          <input type="text" class="form-control" placeholder="MM/DD/YYYY">
+                          <div class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label class="marginTop" for="typeKeyword">Guest</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">01 </option>
+                          <option value="1">02</option>
+                          <option value="2">03</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchbtn">
+                        <button type="submit" class="btn btn-default">Search</button>
+                      </div>
+                    </div>
+                  </div>
+              </form>
+            </div>
+            <div id="hotel" class="tab-pane fade in ">
+              <form method="" action="" >
+                  <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="form-group">
+                        <label for="typeKeyword">Search</label>
+                        <input type="text" class="form-control" id="typeKeyword" placeholder="Type keyword">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label for="typeKeyword">Destination</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">Your Destination</option>
+                          <option value="1">USA</option>
+                          <option value="2">UK</option>
+                          <option value="3">INDIA</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                      <label class="marginTop" for="typeKeyword">Check in date</label>
+                      <div class="date-picker-custom">
+                        <div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
+                          <input type="text" class="form-control" placeholder="MM/DD/YYYY">
+                          <div class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label class="marginTop" for="typeKeyword">Guest</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">01 </option>
+                          <option value="1">02</option>
+                          <option value="2">03</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchbtn">
+                        <button type="submit" class="btn btn-default">Search</button>
+                      </div>
+                    </div>
+                  </div>
+              </form>
+            </div>
+            <div id="flights" class="tab-pane fade in ">
+              <form method="" action="" >
+                  <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="form-group">
+                        <label for="typeKeyword">Search</label>
+                        <input type="text" class="form-control" id="typeKeyword" placeholder="Type keyword">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label for="typeKeyword">Destination</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">Your Destination</option>
+                          <option value="1">USA</option>
+                          <option value="2">UK</option>
+                          <option value="3">INDIA</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                      <label class="marginTop" for="typeKeyword">Check in date</label>
+                      <div class="date-picker-custom">
+                        <div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
+                          <input type="text" class="form-control" placeholder="MM/DD/YYYY">
+                          <div class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label class="marginTop" for="typeKeyword">Guest</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">01 </option>
+                          <option value="1">02</option>
+                          <option value="2">03</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchbtn">
+                        <button type="submit" class="btn btn-default">Search</button>
+                      </div>
+                    </div>
+                  </div>
+              </form>
+            </div>
+            <div id="vehicles" class="tab-pane fade in ">
+              <form method="" action="" >
+                  <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="form-group">
+                        <label for="typeKeyword">Search</label>
+                        <input type="text" class="form-control" id="typeKeyword" placeholder="Type keyword">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label for="typeKeyword">Destination</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">Your Destination</option>
+                          <option value="1">USA</option>
+                          <option value="2">UK</option>
+                          <option value="3">INDIA</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+                      <label class="marginTop" for="typeKeyword">Check in date</label>
+                      <div class="date-picker-custom">
+                        <div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
+                          <input type="text" class="form-control" placeholder="MM/DD/YYYY">
+                          <div class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchHotel">
+                        <label class="marginTop" for="typeKeyword">Guest</label>
+                        <select name="guiest_id2" id="guiest_id2" class="select-drop">
+                          <option value="0">01 </option>
+                          <option value="1">02</option>
+                          <option value="2">03</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="searchbtn">
+                        <button type="submit" class="btn btn-default">Search</button>
+                      </div>
+                    </div>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR PACKAGES SECTION -->
+<section class="ourPackagesSection ptb-100">
+  <div class="container">
+    <div class="sectionTitleHomeCity">
+      <h2>our packages</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-xs-12">
+        <div class="ourPackage">
+          <div class="ourPackageImg">
+            <img src="img/home/packages/our-packages-01.jpg" alt="">
+          </div>
+          <div class="ourPackageContent">
+            <h4>maldives tour</h4>
+            <p>4 days, 5 nights start from <span>$1000</span> </p>
+            <a href="booking-1.html" class="btn buttonCustomPrimary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="ourPackage">
+          <div class="ourPackageImg">
+            <img src="img/home/packages/our-packages-02.jpg" alt="">
+          </div>
+          <div class="ourPackageContent">
+            <h4>London tour</h4>
+            <p>4 days, 5 nights start from <span>$1000</span> </p>
+            <a href="booking-1.html" class="btn buttonCustomPrimary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="ourPackage">
+          <div class="ourPackageImg">
+            <img src="img/home/packages/our-packages-03.jpg" alt="">
+          </div>
+          <div class="ourPackageContent">
+            <h4>Paris tour</h4>
+            <p>4 days, 5 nights start from <span>$1000</span> </p>
+            <a href="booking-1.html" class="btn buttonCustomPrimary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="ourPackage">
+          <div class="ourPackageImg">
+            <img src="img/home/packages/our-packages-04.jpg" alt="">
+          </div>
+          <div class="ourPackageContent">
+            <h4>Mexico tour</h4>
+            <p>4 days, 5 nights start from <span>$1000</span> </p>
+            <a href="booking-1.html" class="btn buttonCustomPrimary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="ourPackage">
+          <div class="ourPackageImg">
+            <img src="img/home/packages/our-packages-05.jpg" alt="">
+          </div>
+          <div class="ourPackageContent">
+            <h4>America tour</h4>
+            <p>4 days, 5 nights start from <span>$1000</span> </p>
+            <a href="booking-1.html" class="btn buttonCustomPrimary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="ourPackage">
+          <div class="ourPackageImg">
+            <img src="img/home/packages/our-packages-06.jpg" alt="">
+          </div>
+          <div class="ourPackageContent">
+            <h4>Rome tour</h4>
+            <p>4 days, 5 nights start from <span>$1000</span> </p>
+            <a href="booking-1.html" class="btn buttonCustomPrimary">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- NEXT TRAVEL SECTION -->
+<section class="nextTravelSection ptb-100" style="background-image: url(img/home-destination/offer-section-bg.jpg);" >
+  <div class="container">
+    <div class="sectionTitleHomeCity2">
+      <h2>Get 30% Off On Your Next Travel</h2>
+      <p>Travel between 22nd August to 23 November and get exciting <br>
+        offers along with a sure 10% cash discount.</p>
+    </div>
+    <div class="content">
+      <ul class="nextTravelContent">
+        <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Get exciting offers along with a sure 10% cash discount.</li>
+        <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Sed do eiusmod tempor</li>
+        <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i>3000 Adipisicing elit sed do eiusmod</li>
+        <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Fugiat nulla pariatur.</li>
+      </ul>
+      <a href="single-package-right-sidebar.html" class="btn buttonCustomPrimary">view details</a>
+    </div>
+  </div>
+</section>
+
+<!-- TOP HOTEL SECTION -->
+<section class="topHotelSection ptb-100">
+  <div class="container">
+    <div class="sectionTitleHomeCity">
+      <h2>top Hotels</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-lg-4 col-xs-12">
+        <div class="thumbnail deals">
+          <img src="img/holets/hotel-list-10.jpg" alt="Hotel-image">
+          <a href="single-hotel-right-sidebar.html" class="pageLink"></a>
+          <div class="discountInfo discountCol-3">
+            <ul class="list-inline rating homePage">
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+            </ul>
+            <ul class="list-inline duration">
+              <li>5 Review</li>
+            </ul>
+          </div>
+          <div class="caption">
+          <a href="single-hotel-right-sidebar.html" class="captionTitle"><h4>Marriott Hotel London</h4></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <div class="detailsInfo">
+              <h5>
+                <span>Per night</span>
+                $150
+              </h5>
+              <ul class="list-inline detailsBtn">
+                <li><a href='booking-1.html' class="btn buttonTransparent">Book now</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xs-12">
+        <div class="thumbnail deals">
+          <img src="img/holets/hotel-list-11.jpg" alt="Hotel-image">
+          <a href="single-hotel-right-sidebar.html" class="pageLink"></a>
+          <div class="discountInfo discountCol-3">
+            <ul class="list-inline rating homePage">
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            </ul>
+            <ul class="list-inline duration">
+              <li>5 Review</li>
+            </ul>
+          </div>
+          <div class="caption">
+            <a href="single-hotel-right-sidebar.html" class="captionTitle"><h4>Marriott Hotel London</h4></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <div class="detailsInfo">
+              <h5>
+                <span>Per night</span>
+                $150
+              </h5>
+              <ul class="list-inline detailsBtn">
+                <li><a href='booking-1.html' class="btn buttonTransparent">Book now</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xs-12">
+        <div class="thumbnail deals">
+          <img src="img/holets/hotel-list-12.jpg" alt="Hotel-image">
+          <a href="single-hotel-right-sidebar.html" class="pageLink"></a>
+          <div class="discountInfo discountCol-3">
+            <ul class="list-inline rating homePage">
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            </ul>
+            <ul class="list-inline duration">
+              <li>5 Review</li>
+            </ul>
+          </div>
+          <div class="caption">
+            <a href="single-hotel-right-sidebar.html" class="captionTitle"><h4>Marriott Hotel London</h4></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <div class="detailsInfo">
+              <h5>
+                <span>Per night</span>
+                $150
+              </h5>
+              <ul class="list-inline detailsBtn">
+                <li><a href='booking-1.html' class="btn buttonTransparent">Book now</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="homeCitybtn">
+      <a href="hotels-list-right-sidebar.html" class="btn buttonTransparent">view all Hotels</a>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO SECTION -->
+<section class="videoPlayerSection " style="background-image: url(img/home-destination/video-section-bg.jpg);" >
+  <div class="container">
+    <div class="videoPlayerIcon">
+      <a href="">
+        <i class="fa fa-play" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TOP DESTINATION SECTION -->
+<section class="topDestinationSection ptb-100">
+  <div class="container">
+    <div class="sectionTitleHomeCity">
+      <h2>top destination</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-xs-6">
+        <div class="destinationContent">
+          <a href="destination-single-city.html"><img src="img/home-destination/destination/destination-img-01.jpg" alt="Image">
+            <h5>Australia</h5>
+            <p>Opera House</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-2 col-xs-6">
+        <div class="destinationContent">
+          <a href="destination-single-city.html">
+            <img src="img/home-destination/destination/destination-img-02.jpg" alt="Image">
+            <h5>America</h5>
+            <p>Statue of Liberty</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-2 col-xs-6">
+        <div class="destinationContent">
+          <a href="destination-single-city.html">
+            <img src="img/home-destination/destination/destination-img-03.jpg" alt="Image">
+            <h5>London</h5>
+            <p>Big Ben Watch</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-2 col-xs-6">
+        <div class="destinationContent">
+          <a href="destination-single-city.html">
+            <img src="img/home-destination/destination/destination-img-04.jpg" alt="Image">
+            <h5>Russia</h5>
+            <p>Moxco Tower</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-2 col-xs-6">
+        <div class="destinationContent">
+          <a href="destination-single-city.html">
+            <img src="img/home-destination/destination/destination-img-05.jpg" alt="Image">
+            <h5>India</h5>
+            <p>Tajmahal</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-2 col-xs-6">
+        <div class="destinationContent">
+          <a href="destination-single-city.html">
+            <img src="img/home-destination/destination/destination-img-06.jpg" alt="Image">
+            <h5>France</h5>
+            <p>Eiffel Tower</p>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGE SAlE SECTION -->
+<section class="packageSAleSection ptb-100" style="background-image: url(img/home-destination/package-sale-bg.jpg);" >
+  <div class="container">
+    <div class="sectionTitleHomeCity2">
+      <h2>50% OFF SALE</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br>
+        elit, sed do eiusmod tempor.</p>
+    </div>
+    <div class="buttonSale">
+      <a href="booking-1.html" class="btn buttonCustomPrimary">Book now</a>
+      <a href="single-package-right-sidebar.html" class="btn buttonTransparent">Explor tour </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- TRAVEL TIPS THUMBNAIL SAlE SECTION -->
+<section class="travelTipsThumbanail ptb-100" >
+  <div class="container">
+    <div class="sectionTitleHomeCity">
+      <h2>Get city travel tips</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <a href="blog-single-right-sidebar.html"><img src="img/home-destination/destination/get-city-img-01.jpg" alt="Image"></a>
+          <div class="caption">
+            <a href="blog-single-right-sidebar.html"><h3>euismod nonummy nibh diam consect etuer adipiscing</h3></a>
+            <div class="meta-content">
+              <a href=""><i class="fa fa-user-o" aria-hidden="true"></i>by Admin</a>
+              <a href="blog-single-right-sidebar.html"><i class="fa fa-comments-o" aria-hidden="true"></i>Comments 02</a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmodtempor incididunt ut laboet dolore magna aliqua Ut enim ad minim veniam</p>
+            <a class="readMoreBtn" href="blog-single-right-sidebar.html">read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <a href="blog-single-right-sidebar.html"><img src="img/home-destination/destination/get-city-img-02.jpg" alt="Image"></a>
+          <div class="caption">
+            <a href="blog-single-right-sidebar.html"><h3>euismod nonummy nibh diam consect etuer adipiscing</h3></a>
+            <div class="meta-content">
+              <a href=""><i class="fa fa-user-o" aria-hidden="true"></i>by Admin</a>
+              <a href="blog-single-right-sidebar.html"><i class="fa fa-comments-o" aria-hidden="true"></i>Comments 02</a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmodtempor incididunt ut laboet dolore magna aliqua Ut enim ad minim veniam</p>
+            <a class="readMoreBtn" href="blog-single-right-sidebar.html">read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <a href="blog-single-right-sidebar.html"><img src="img/home-destination/destination/get-city-img-03.jpg" alt="Image"></a>
+          <div class="caption">
+            <a href="blog-single-right-sidebar.html"><h3>euismod nonummy nibh diam consect etuer adipiscing</h3></a>
+            <div class="meta-content">
+              <a href=""><i class="fa fa-user-o" aria-hidden="true"></i>by Admin</a>
+              <a href="blog-single-right-sidebar.html"><i class="fa fa-comments-o" aria-hidden="true"></i>Comments 02</a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmodtempor incididunt ut laboet dolore magna aliqua Ut enim ad minim veniam</p>
+            <a class="readMoreBtn" href="blog-single-right-sidebar.html">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND SLIDER SECTION -->
+<section class="brandSliderSection bg-ash">
+  <div class="container">
+    <div class="brandSlider">
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-01.png" alt="image">
+      </div>
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-02.png" alt="image">
+      </div>
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-03.png" alt="image">
+      </div>
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-04.png" alt="image">
+      </div>
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-01.png" alt="image">
+      </div>
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-02.png" alt="image">
+      </div>
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-03.png" alt="image">
+      </div>
+      <div class="singleItem">
+        <img src="img/home-destination/slider/logo-04.png" alt="image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal Video -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe id="iframeYoutube" class="embed-responsive-item" src="https://www.youtube.com/embed/KOSYSxJfMoc" frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer clearfix footer-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-xs-12">
+          <div class="footerContent">
+            <a href="index.html" class="footer-logo"><img src="img/logo-color-big.png" alt="footer-logo"></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute </p>
+            <ul class="list-inline">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <div class="footerContent">
+            <h5>contact us</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod.</p>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-home" aria-hidden="true"></i>61 Park Street, Fifth Avenue, NY</li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i>[88] 657 524 332</li>
+              <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailTo:info@star-travel.com">info@star-travel.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <div class="footerContent imgGallery">
+            <h5>Discover</h5>
+            <ul class="list-item">
+              <li><a href="">Tour Guide</a></li>
+              <li><a href="">Community Blog</a></li>
+              <li><a href="">Flight</a></li>
+              <li><a href="">Special Offer</a></li>
+              <li><a href="">Terms & Condition</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <div class="footerContent">
+            <h5>Destination</h5>
+            <ul class="list-item">
+              <li><a href="">Art Gallery</a></li>
+              <li><a href="">Museums</a></li>
+              <li><a href="">Food Corner</a></li>
+              <li><a href="">Opera House</a></li>
+              <li><a href="">Hotel</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyRight clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-6 col-xs-12">
+          <ul class="list-inline">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-sm-pull-6 col-xs-12">
+          <div class="copyRightText">
+            <p>Copyright © 2016. All Rights Reserved by <a target="_blank" href="http://www.iamabdus.com/">Abdus</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+
+<!-- Signup Modal -->
+<div class="modal fade signupLoging" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modalContentCustom">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Create your account</h4>
+      </div>
+      <div class="modal-body">
+        <form method="post" action="">
+          <div class="form-group">
+            <input type="text" class="form-control bg-ash" id="exampleInputEmail1" placeholder="Full Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> I agree to the terms of use and privacy.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Login</button>
+        </form>
+        <div class="or">
+          or
+        </div>
+        <a class="btn btn-default btnSocial"  href="#">Log in with facebook</a>
+      </div>
+
+      <div class="modal-footer">
+          <div class="dontHaveAccount">
+            <p>Don’t have an Account?<a href=""> Sign up</a></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Login Modal -->
+<div class="modal fade signupLoging" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modalContentCustom">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Log in to your account</h4>
+      </div>
+      <div class="modal-body">
+        <form method="post" action="">
+          <div class="form-group">
+            <input type="email" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+            <a class="forgotPass clerfix" href="">Fogot Password?</a>
+          </div>
+          <button type="submit" class="btn btn-default">Login</button>
+        </form>
+        <div class="or">
+          or
+        </div>
+        <a class="btn btn-default btnSocial"  href="#">Log in with facebook</a>
+      </div>
+
+      <div class="modal-footer">
+          <div class="dontHaveAccount">
+            <p>Don’t have an Account?<a href=""> Sign up</a></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JAVASCRIPTS -->
+<script src="plugins/jquery/jquery-2.2.4.min.js"></script>
+<script src="plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
+<script src="plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="plugins/jquery/waypoints.min.js"></script>
+<script src="plugins/counter-up/jquery.counterup.min.js"></script>
+<script src="plugins/isotope/isotope.min.js"></script>
+<script src="plugins/isotope/jquery.fancybox.pack.js"></script>
+<script src="plugins/isotope/isotope-triger.js"></script>
+<script src="plugins/countdown/jquery.syotimer.js"></script>
+
+<script src="plugins/slick/slick.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
+

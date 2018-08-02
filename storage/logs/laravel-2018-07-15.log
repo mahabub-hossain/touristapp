@@ -1,0 +1,5 @@
+[2018-07-15 04:54:50] local.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 60 seconds exceeded at E:\\xampp\\htdocs\\tourist\\vendor\\harimayco\\laravel-menu\\src\\WMenu.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2018-07-15 05:47:50] local.INFO: User Logged In: Admin Istrator  
