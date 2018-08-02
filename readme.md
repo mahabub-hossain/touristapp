@@ -10,41 +10,19 @@
 [Click here for the official documentation](http://laravel-boilerplate.com)
 
 ### Slack Channel
+This is a tourist site application (LARAVEl) which includes most of the features of any client request.The floe of the application is Continent wise country,country wise tourist spots,tourist spots wise packages. And also user can request his own updated package.
 
-Please join us in our Slack channel to get faster responses to your questions. Get your invite here: https://laravel-5-boilerplate.herokuapp.com
+The languages are used in this applications are PHP(LARAVEl FRAMEORK),Javascript,JQuery,Ajax,Vuejs,bootstrape 
+Major features are given below--
 
-### Laravel 5.5
+1.Full function able admin pannel.
+2.Multiple image implementation with ajax update and delete request.
+3.Google map api implementation which show map according to Latitude and Langitude of a city.User can serch the direction path to go one place to another.
+4.Weather map api implementation . It shows selected city's current weather status.
+5.Package search according to price by using Range slider and also according to country.
 
-You can download the last build of Laravel 5.5 [here](https://github.com/rappasoft/laravel-5-boilerplate/tree/Legacy_5.5).
 
-### Laravel 5.4
 
-You can download the last build of Laravel 5.4 [here](https://github.com/rappasoft/laravel-5-boilerplate/tree/Legacy_5.4).
 
-### Introduction
 
-Laravel Boilerplate provides you with a massive head start on any size web application. It comes with a full featured access control system out of the box with an easy to learn API and is built on a Twitter Bootstrap foundation with a front and backend architecture. We have put a lot of work into it and we hope it serves you well and saves you time!
 
-### Wiki
-
-Please view the [wiki](https://github.com/rappasoft/laravel-5-boilerplate/wiki) for a list of [features](https://github.com/rappasoft/laravel-5-boilerplate/wiki#features).
-
-### Issues
-
-If you come across any issues please [report them here](https://github.com/rappasoft/Laravel-5-Boilerplate/issues).
-
-### Contributing
-
-Thank you for considering contributing to the Laravel Boilerplate project! Please feel free to make any pull requests, or e-mail me a feature request you would like to see in the future to Anthony Rappa at rappa819@gmail.com.
-
-### Security Vulnerabilities
-
-If you discover a security vulnerability within this boilerplate, please send an e-mail to Anthony Rappa at rappa819@gmail.com, or create a pull request if possible. All security vulnerabilities will be promptly addressed. Please reference [this page](https://github.com/rappasoft/laravel-5-boilerplate/wiki/7.-Security-Fixes) to make sure you are up to date.
-
-### Donations
-
-If you would like to help the continued efforts of this project, any size [donations](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=JJWUZ4E9S9SFG&lc=US&item_name=Laravel%205%20Boilerplate&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) are welcomed and highly appreciated.
-
-### License
-
-MIT: [http://anthony.mit-license.org](http://anthony.mit-license.org)
